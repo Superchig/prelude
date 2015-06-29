@@ -1,0 +1,63 @@
+;; -*- mode: emacs-lisp; coding: emacs-mule; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Mon Jun 29 16:23:45 2015
+;; Desktop file format version 206
+;; Emacs version 24.5.1
+
+;; Global section:
+(setq desktop-saved-frameset [frameset 1 (21905 54145 387858 202000) (desktop . "206") "chiggie@chig-arch" nil nil ((((font-backend xft x) (font . "-adobe-Source Code Pro-semibold-normal-normal-*-13-*-*-*-m-0-iso10646-1") (font-parameter) (border-width . 0) (internal-border-width . 0) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars . right) (foreground-color . "#F8F8F2") (background-color . "#272822") (mouse-color . "#F8F8F2") (border-color . "black") (screen-gamma) (line-spacing) (left-fringe . 8) (right-fringe . 8) (scroll-bar-foreground) (scroll-bar-background . "grey75") (menu-bar-lines . 0) (tool-bar-lines . 0) (title) (wait-for-wm . t) (fullscreen . maximized) (tool-bar-position . top) (icon-type . t) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 15) (alpha) (horizontal-scroll-bars . t) (display-type . color) (background-mode . dark) (cursor-color . "gray") (sticky) (environment) (frameset--id . "6192-ED3A-6F9E-1191") (frameset--mini t . t) (height . 35) (width . 166) (modeline . t) (minibuffer . t) (unsplittable) (left . 0) (top . 0) (icon-name) (visibility . t) (display . ":0.0") (explicit-name)) ((min-height . 4) (min-width . 10) (min-height-ignore . 3) (min-width-ignore . 6) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 68) (min-pixel-width . 80) (min-pixel-height-ignore . 51) (min-pixel-width-ignore . 48) (min-pixel-height-safe . 17) (min-pixel-width-safe . 16)) leaf (pixel-width . 1366) (pixel-height . 587) (total-width . 170) (total-height . 34) (normal-height . 1.0) (normal-width . 1.0) (buffer "themes.el" (selected . t) (hscroll . 0) (fringes 8 8 nil) (margins nil) (scroll-bars 15 2 t nil) (vscroll . 0) (dedicated) (point . 31) (start . 1))))])
+(setq desktop-missing-file-warning nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+(setq search-ring nil)
+(setq regexp-search-ring nil)
+(setq register-alist nil)
+(setq file-name-history '("~/.emacs.d/personal/themes.el" "~/.emacs.d/personal/basic.el" "~/.emacs.d/personal/packages.el" "~/.emacs.d/personal/custom.el" "~/.emacs.d/prelude-modules.el" "~/.emacs.d/personal/personal-init.el" "~/dotfiles/.zshrc" "/home/chiggie/.emacs.d/personal/preload/.gitkeep" "/home/chiggie/.emacs.d/prelude-modules.el" "~/.emacs.d" "~/"))
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 206
+  "/home/chiggie/.emacs.d/personal/themes.el"
+  "themes.el"
+  'emacs-lisp-mode
+  '(prelude-mode global-auto-revert-mode smartparens-mode volatile-highlights-mode projectile-mode anzu-mode whitespace-mode eldoc-mode undo-tree-mode diff-hl-mode helm-mode company-mode flycheck-mode guru-mode elisp-slime-nav-mode rainbow-delimiters-mode rainbow-mode)
+  31
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . prefer-utf-8-unix) (overwrite-mode)))
+
+(desktop-create-buffer 206
+  "/home/chiggie/.emacs.d/personal/packages.el"
+  "packages.el"
+  'emacs-lisp-mode
+  '(prelude-mode global-auto-revert-mode smartparens-mode volatile-highlights-mode projectile-mode anzu-mode whitespace-mode eldoc-mode undo-tree-mode diff-hl-mode helm-mode company-mode flycheck-mode guru-mode elisp-slime-nav-mode rainbow-delimiters-mode rainbow-mode)
+  86
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . prefer-utf-8-unix) (overwrite-mode)))
+
+(desktop-create-buffer 206
+  nil
+  "personal"
+  'dired-mode
+  '(prelude-mode global-auto-revert-mode volatile-highlights-mode projectile-mode anzu-mode undo-tree-mode helm-mode company-mode diff-hl-dired-mode)
+  468
+  '(537 nil)
+  t
+  '("/home/chiggie/.emacs.d/personal/" "/home/chiggie/.emacs.d/personal/preload/")
+  '((overwrite-mode)))
+
+(desktop-create-buffer 206
+  "/home/chiggie/.emacs.d/personal/preload/.gitkeep"
+  ".gitkeep"
+  'fundamental-mode
+  '(prelude-mode global-auto-revert-mode volatile-highlights-mode projectile-mode anzu-mode undo-tree-mode diff-hl-mode helm-mode company-mode flycheck-mode)
+  1
+  '(nil nil)
+  nil
+  nil
+  '((overwrite-mode)))
+

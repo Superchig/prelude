@@ -1,0 +1,41 @@
+;; -*- mode: emacs-lisp; coding: emacs-mule; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Sun Jun 28 20:54:50 2015
+;; Desktop file format version 206
+;; Emacs version 24.5.1
+
+;; Global section:
+(setq desktop-saved-frameset [frameset 1 (21904 49546 83420 562000) (desktop . "206") "chiggie@chig-arch" nil nil ((((tool-bar-lines . 0) (menu-bar-lines . 0) (foreground-color . "#DCDCCC") (background-color . "#3F3F3F") (display-type . mono) (background-mode . dark) (cursor-color . "gray") (font . "tty") (height . 10) (width . 10) (modeline . t) (unsplittable) (frameset--id . "2E22-6331-4077-F9E2") (frameset--mini t) (minibuffer . t)) ((min-height . 8) (min-width . 10) (min-height-ignore . 4) (min-width-ignore . 2) (min-height-safe . 2) (min-width-safe . 2) (min-pixel-height . 8) (min-pixel-width . 10) (min-pixel-height-ignore . 4) (min-pixel-width-ignore . 2) (min-pixel-height-safe . 2) (min-pixel-width-safe . 2)) vc (pixel-width . 10) (pixel-height . 9) (total-width . 10) (total-height . 9) (normal-height . 1.0) (normal-width . 1.0) (combination-limit) (leaf (pixel-width . 10) (pixel-height . 4) (total-width . 10) (total-height . 4) (normal-height . 0.5) (normal-width . 1.0) (buffer "packages.el" (selected . t) (hscroll . 0) (fringes 0 0 nil) (margins nil) (scroll-bars 0 0 t nil) (vscroll . 0) (dedicated) (point . 205) (start . 1))) (leaf (last . t) (pixel-width . 10) (pixel-height . 5) (total-width . 10) (total-height . 5) (normal-height . 0.5) (normal-width . 1.0) (buffer "*Warnings*" (selected) (hscroll . 0) (fringes 0 0 nil) (margins nil) (scroll-bars 0 0 t nil) (vscroll . 0) (dedicated) (point . 350) (start . 1)))))])
+(setq desktop-missing-file-warning nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+(setq search-ring nil)
+(setq regexp-search-ring nil)
+(setq register-alist nil)
+(setq file-name-history '("~/.emacs.d/personal/basic.el" "~/.emacs.d/personal/packages.el" "~/.emacs.d/personal/themes.el" "~/.emacs.d/personal/custom.el" "~/.emacs.d/prelude-modules.el" "~/.emacs.d/personal/personal-init.el" "~/dotfiles/.zshrc" "/home/chiggie/.emacs.d/personal/preload/.gitkeep" "/home/chiggie/.emacs.d/prelude-modules.el" "~/.emacs.d" "~/"))
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 206
+  "/home/chiggie/.emacs.d/personal/packages.el"
+  "packages.el"
+  'emacs-lisp-mode
+  '(prelude-mode global-auto-revert-mode smartparens-mode volatile-highlights-mode projectile-mode anzu-mode whitespace-mode eldoc-mode undo-tree-mode diff-hl-mode helm-mode company-mode flycheck-mode guru-mode elisp-slime-nav-mode rainbow-delimiters-mode rainbow-mode)
+  205
+  '(186 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . prefer-utf-8-unix) (overwrite-mode)))
+
+(desktop-create-buffer 206
+  "/home/chiggie/.emacs.d/personal/basic.el"
+  "basic.el"
+  'emacs-lisp-mode
+  '(prelude-mode global-auto-revert-mode smartparens-mode volatile-highlights-mode projectile-mode anzu-mode whitespace-mode eldoc-mode undo-tree-mode diff-hl-mode helm-mode company-mode flycheck-mode guru-mode elisp-slime-nav-mode rainbow-delimiters-mode rainbow-mode)
+  106
+  '(55 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . prefer-utf-8-unix) (overwrite-mode)))
+
